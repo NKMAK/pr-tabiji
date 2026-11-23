@@ -15,17 +15,6 @@ pr-tabiji は、読む時間を削るのではなく、**理解に至るまで�
 - AIは、コードか根拠資料から分かることだけを書く。分からないことは「要確認」として示す。
 - 判断は人間が下す。
 
-## ドキュメント
-
-入口は [docs/index.md](docs/index.md)（分類ごとの地図と、作業別に読むもの）。
-
-| 場所 | 内容 |
-|---|---|
-| [docs/concept/](docs/concept/index.md) | 背景・思想・コンセプト・既存ツールの調査・出典 |
-| [docs/roadmap.md](docs/roadmap.md) | 要件定義の進め方・現在地・未決事項 |
-| [docs/decision-log.md](docs/decision-log.md) | 決めたこと・採用しなかったことの記録 |
-| [docs/architecture.md](docs/architecture.md) | 構成・テスト方針（実装前） |
-
 ## 名前について
 
 「旅路（たびじ）」から。データがコードの中を通っていく旅をたどる、という意味。
