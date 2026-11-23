@@ -1,7 +1,7 @@
 # docs の地図
 
 **AI はここから読む。** 作業に関係する分類の index だけを開き、そこから必要なファイルだけを読む。全部を読まない。
-置き方・更新のルールは [`docs-index` skill](../.claude/skills/docs-index/SKILL.md)。
+置き方・更新のルールは `docs-index` skill (ローカルの `.claude/skills/`。git 管理外)。
 
 ## 分類
 
