@@ -9,6 +9,7 @@ PR をレビューする人が、変更を速く理解するための OSS ツー
 - **意思決定記録: [docs/decision-log.md](docs/decision-log.md)**。重大な決定 (技術選定、仕様の変更、方針の転換) をしたら 1 行で追記する (理由と見送った案。覆したら行を消さずに新しい行を足す)。
 - **ブロッカーと再開メモ: [.claude/todo/progress.md](.claude/todo/progress.md)**。進捗の正は GitHub の Issue と PR。
 - やることの一覧: [.claude/todo/todo.md](.claude/todo/todo.md)
+- **`.claude/` は git 管理外** (skills・todo・settings は手元だけ)。消えても `my-workflow/setup.sh -p core,web` で入れ直せる。プロジェクト固有に変えた点 (commit / pr の英語化、`docs-index` skill) は下の「プロジェクト固有の変更」に残す。
 
 ## 技術スタック
 
@@ -64,3 +65,8 @@ PR をレビューする人が、変更を速く理解するための OSS ツー
 - **タスク・波の終わりと、ユーザーに指摘・訂正されたときは `retro` skill で振り返る。** 繰り返した手順は skill に、落とし穴は skill の記録に、トークン節約のコツは [token-tips](.claude/skills/retro/references/token-tips.md) に、その場で反映する。
 - トークンを節約する: 必要な範囲だけ読む、編集後に読み直さない、テストは変えた範囲から、スクショは要所だけ (詳細は token-tips)。
 - 汎用的に使える改善は、[my-workflow](https://github.com/NKMAK/my-workflow) にも反映する (`setup.sh` で他のプロジェクトへ配る)。
+
+## プロジェクト固有の変更 (`.claude/` を入れ直したときに戻す)
+
+- `commit` / `pr` skill: メッセージ・PR は英語 (OSS のため)。
+- `docs-index` skill を追加 (docs の index 運用と `check.sh`)。`commit` skill から docs 変更時に呼ぶ。
