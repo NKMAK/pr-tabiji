@@ -1,20 +1,18 @@
 # pr-tabiji
 
 PR をレビューする人が、変更を速く理解するための OSS ツール。読む量を削るのではなく、「データの旅」を軸に抽象 → 具体の順で示し、理解に至るまでの時間を短くする。
-現在は要件定義の段階 (思想まで合意済み)。背景・思想・コンセプトは [README.md](README.md) と `docs/01〜08` を読む。
+現在は要件定義の段階 (思想まで合意済み)。現在地は [docs/roadmap.md](docs/roadmap.md)。
 
 ## 詳細ドキュメント (AI はまずここを読む)
 
-- **意思決定記録: [docs/07-decision-log.md](docs/07-decision-log.md)**。重大な決定 (技術選定、仕様の変更、方針の転換) をしたら 1 行で追記する (理由と見送った案。覆したら行を消さずに状態を変える)。
-- 要件定義の現在地と未決事項: [docs/06-requirements-roadmap.md](docs/06-requirements-roadmap.md)。仕様に落とすものは [docs/specs/index.md](docs/specs/index.md) (`new-spec` skill)
-- 設計と実装計画: [docs/impl-plan/index.md](docs/impl-plan/index.md) (`impl-plan` skill)
-- アーキテクチャ (フォルダ、層、テスト方針、ブランチ): [docs/architecture.md](docs/architecture.md)
+- **docs の入口は [docs/index.md](docs/index.md) だけ。** 分類ごとの地図と「作業別: まず読むもの」がある。index → 必要なファイルの順で、**作業に要るものだけ読む** (全部を読まない)。docs を足す・動かす・消すときは `docs-index` skill。
+- **意思決定記録: [docs/decision-log.md](docs/decision-log.md)**。重大な決定 (技術選定、仕様の変更、方針の転換) をしたら 1 行で追記する (理由と見送った案。覆したら行を消さずに新しい行を足す)。
 - **ブロッカーと再開メモ: [.claude/todo/progress.md](.claude/todo/progress.md)**。進捗の正は GitHub の Issue と PR。
 - やることの一覧: [.claude/todo/todo.md](.claude/todo/todo.md)
 
 ## 技術スタック
 
-未定。Web アプリになる見込み (提供形態は未決。[06](docs/06-requirements-roadmap.md) の未決事項 5)。決めたらここと下の表を埋める。
+未定。Web アプリになる見込み (提供形態は未決。[roadmap](docs/roadmap.md) の未決事項 5)。決めたらここと下の表を埋める。
 
 | 用途 | コマンド |
 | --- | --- |

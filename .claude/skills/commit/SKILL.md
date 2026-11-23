@@ -38,6 +38,7 @@ period exceeds the threshold.
 1. `git status` / `git diff` で、コミット対象として指示された範囲の変更内容を確認する。
 2. 対象ファイルを `git add <path>` で個別に指定する。**`git add -A` / `git add .` は使わない**（`.claude/worktrees/` などを誤ってコミットしないため）。
    - lint / formatter があれば、**触ったファイルだけ**整形・検査してから add する (コマンドは `lint-format` skill の「B. 毎回」と CLAUDE.md)。
+   - `docs/` や `.md` を足す・動かす・消したときは、index を同じコミットで直し、`.claude/skills/docs-index/check.sh` を通す (`docs-index` skill)。
 3. `git diff --staged` でステージ済みの内容が指示された範囲と一致するか確認する。
 4. 変更内容から適切な `type` を選び、上記フォーマットでコミットメッセージを作成する。
 5. `git commit` を実行する。

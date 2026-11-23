@@ -17,17 +17,14 @@ pr-tabiji は、読む時間を削るのではなく、**理解に至るまで�
 
 ## ドキュメント
 
-| ファイル | 内容 |
+入口は [docs/index.md](docs/index.md)（分類ごとの地図と、作業別に読むもの）。
+
+| 場所 | 内容 |
 |---|---|
-| [docs/01-background.md](docs/01-background.md) | 背景と課題 |
-| [docs/02-philosophy.md](docs/02-philosophy.md) | 目的・思想・やらないこと |
-| [docs/03-concept.md](docs/03-concept.md) | コンセプト（路線図とデータの旅） |
-| [docs/04-senior-perspective.md](docs/04-senior-perspective.md) | シニア視点との照合と、足りない視点 |
-| [docs/05-existing-tools.md](docs/05-existing-tools.md) | 既存ツールの調査と差別化 |
-| [docs/06-requirements-roadmap.md](docs/06-requirements-roadmap.md) | 要件定義の進め方・現在地・未決事項 |
-| [docs/07-decision-log.md](docs/07-decision-log.md) | 決めたこと・採用しなかったことの記録 |
-| [docs/08-team-practices.md](docs/08-team-practices.md) | 付録: ツール以外の打ち手（チーム運用） |
-| [docs/references.md](docs/references.md) | 出典と根拠 |
+| [docs/concept/](docs/concept/index.md) | 背景・思想・コンセプト・既存ツールの調査・出典 |
+| [docs/roadmap.md](docs/roadmap.md) | 要件定義の進め方・現在地・未決事項 |
+| [docs/decision-log.md](docs/decision-log.md) | 決めたこと・採用しなかったことの記録 |
+| [docs/architecture.md](docs/architecture.md) | 構成・テスト方針（実装前） |
 
 ## 名前について
 
