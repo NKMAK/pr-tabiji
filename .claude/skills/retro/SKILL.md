@@ -32,7 +32,7 @@ description: タスク・波・セッションの終わりに 2〜3 分で振り
 | 繰り返した手順 (既存の skill の範囲) | その skill の手順を直す |
 | 落とし穴・期待値の目安 | 関係する skill の「落とし穴」「プロジェクトでの記録」 |
 | 進め方のルール・ユーザーの好み | `CLAUDE.md` (要点とリンクだけ) |
-| 重大な判断 (技術選定・方針の転換) | `docs/07-decision-log.md` に 1 行 |
+| 重大な判断 (技術選定・方針の転換) | `docs/decision-log.md` に 1 行 |
 | トークン節約のコツ | `.claude/skills/retro/references/token-tips.md` |
 | 止まっていること | `.claude/todo/progress.md` のブロッカー |
 
